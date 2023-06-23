@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Navigation = (props) => {
   return (
@@ -18,7 +19,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+            RSA Telecomunicaciones
           </a>{" "}
         </div>
 
@@ -27,22 +28,20 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            <li>
+            {/* <li>
               <a href="#features" className="page-scroll">
                 Features
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#about" className="page-scroll">
-                About
+                Acerca de RSA
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
-                Services
-              </a>
+                <Link to="/contrata" className="btn btn-custom btn-lg">Contrata ahora</Link>            
             </li>
-            <li>
+            {/* <li>
               <a href="#portfolio" className="page-scroll">
                 Gallery
               </a>
@@ -51,15 +50,15 @@ export const Navigation = (props) => {
               <a href="#testimonials" className="page-scroll">
                 Testimonials
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#team" className="page-scroll">
-                Team
+                Trabaja con nosotros
               </a>
             </li>
             <li>
               <a href="#contact" className="page-scroll">
-                Contact
+                Contactos
               </a>
             </li>
           </ul>

@@ -1,21 +1,19 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "CONTRATA DIRECTV",
+    "paragraph": "Distribuidor de servicios de TV Paga."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "RSA Telecomunicaciones es una empresa distribuidora de DIRECTV  Chile, con presencia operativa en 3 regiones de Chile.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Ventas con altos estandares de calaidad de servicios de DIRECTV",
+      "Instalación inmediata de servicios de DIRECTV",
+      "Gestión backoffice de ventas"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Servicio al cliente Post Venta.",
+      "Capacitación constante de nuestros colaboradores.",
+      "Asumimos el compromiso de entregar un servicio de calidad."
     ]
   },
   "Gallery": [
@@ -152,12 +150,10 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "Campos 147E. Rancagua, Chile",
+    "phone": "+56 9 888 8888 888 ",
+    "email": "contacto@rsa-tel.cl",
+    "facebook": "https://www.facebook.com/rsatelcl"
   },
   "Features": [
     {
