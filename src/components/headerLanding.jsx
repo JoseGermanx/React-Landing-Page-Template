@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-export const Header = (props) => {
+export const HeaderLanding = (props) => {
   return (
     <header id="header">
       <div className="intro">
@@ -13,8 +12,6 @@ export const Header = (props) => {
                   {props.data ? props.data.title : "Loading"}
                   <span></span>
                 </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <Link to="/contrata" className="btn btn-custom btn-lg">Contrata ahora</Link>{" "}
               </div>
             </div>
           </div>
