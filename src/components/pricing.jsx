@@ -4,6 +4,7 @@ import { PricingCard } from "./pricingCard";
 export const Pricing = (props) => {
   
   return (
+    
       <div className="container-pricing">
         {props.data.length > 0 ?
            props.data.map((e) => {
