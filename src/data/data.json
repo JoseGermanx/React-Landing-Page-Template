@@ -176,5 +176,32 @@
       "title": "Lorem ipsum",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
+  ],
+  "planes": [
+    {
+      "title": "Plata HD",
+      "normal_price": "31.250",
+      "promo_price": "25.990",
+      "include": "161 Canales: 96 SD, 65 HD",
+      "channels": 161,
+      "extra": "HBO incluido 3 meses"
+    },
+     {
+      "title": "Plata HD Combo+",
+      "normal_price": "34.490",
+      "promo_price":  "28.990",
+      "include": "161 Canales: 96 SD, 65 HD",
+      "channels": 161,
+      "extra": "Acceso incluido a Disney+ y Star+"
+    },
+  {
+      "title": "Oro HD Combo+",
+      "normal_price": "38.930",
+      "promo_price": "29.990",
+      "include": "203 CANALES: 116 SD, 87 HD",
+      "channels": 203,
+      "extra": "HBO incluido 3 meses y acceso incluido a Disney+ y Star+"
+    }
   ]
+
 }
