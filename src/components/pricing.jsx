@@ -5,12 +5,14 @@ export const Pricing = (props) => {
   
   return (
     
-      <div className="container-pricing">
+      <div className="container">
+        <div className="row">
         {props.data.length > 0 ?
            props.data.map((e) => {
               return (
-                <div key={e.id} className="pricingCard">
+                <div key={e.id} className="col-sm-6 col-md-4 col-lg-4">
                   <PricingCard
+                  className="pricingCard"
                   title={e.title}
                   normal_price={e.normal_price}
                   promo_price={e.promo_price}
@@ -20,6 +22,7 @@ export const Pricing = (props) => {
                 </div>
               );
             }): "Loading..."}
+            </div>
       </div>
   );
 };
