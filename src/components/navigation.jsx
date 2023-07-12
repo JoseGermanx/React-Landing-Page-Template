@@ -3,65 +3,54 @@ import { Link } from "react-router-dom";
 
 export const Navigation = (props) => {
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
+    <nav
+      id="menu"
+      className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+    >
+      <div className="container-fluid">
         <div className="navbar-header">
           <button
+            class="navbar-toggler"
             type="button"
-            className="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            <span class="navbar-toggler-icon"></span>
           </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div>
           <a className="navbar-brand page-scroll" href="#page-top">
-            RSA Telecomunicaciones
-          </a>{" "}
-        </div>
-
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
-        >
-          <ul className="nav navbar-nav navbar-right">
-            {/* <li>
-              <a href="#features" className="page-scroll">
-                Features
-              </a>
-            </li> */}
-            <li>
-              <a href="#about" className="page-scroll">
-                Acerca de RSA
-              </a>
-            </li>
-            <li>
-                <Link to="/contrata" className="btn btn-custom btn-lg">Contrata ahora</Link>            
-            </li>
-            {/* <li>
-              <a href="#portfolio" className="page-scroll">
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonials
-              </a>
-            </li> */}
-            <li>
-              <a href="#team" className="page-scroll">
-                Trabaja con nosotros
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="page-scroll">
-                Contactos
-              </a>
-            </li>
-          </ul>
+              RSA Telecomunicaciones
+            </a>{" "}
+            </div>
+            <div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about">
+                  Acerca de RSA
+                </a>
+              </li>
+              <li class="nav-item">
+                <Link to="/contrata" className="btn btn-custom btn-lg">
+                  Contrata ahora
+                </Link>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">
+                  Trabaja con nosotros
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact">
+                  Contactos
+                </a>
+              </li>
+            </ul>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
