@@ -221,7 +221,7 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
-.intro .overlay {
+.overlay {
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
@@ -603,6 +603,10 @@ label {
 }
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
+}
+
+div.carousel-caption h2 {
+  color: white;
 }
 
 @media (max-width: 768px) {
