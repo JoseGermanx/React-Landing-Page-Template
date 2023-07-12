@@ -52,7 +52,11 @@ export const PricingCard = ({
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-              <p>{mas}</p>
+              <ul>
+                {mas.map((e, id) => {
+                  return <li key={id}>{e[id+1]}</li>;
+                })}
+              </ul>
             </div>
           </div>
         </div>

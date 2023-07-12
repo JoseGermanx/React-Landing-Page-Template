@@ -185,14 +185,15 @@
       "include": "161 Canales: 96 SD, 65 HD",
       "channels": 161,
       "extra": "HBO incluido 3 meses",
-      "mas":{
-        "1": "1 deco HD incluido",
-        "2": "2do deco HD gratis",
-        "3": "Sin costo de instalación con Pago Automático bancario",
-        "4": "DGO GRATIS",
-        "5": "En todas tus pantallas DSports + DSports APP",
-        "6": "Contrata hasta 2 Premium"
-      }
+      "mas": [
+        { "1": "1 deco HD incluido" },
+        { "2": "2do deco HD gratis Sin costo de instalación" },
+        { "3": "Con Pago Automático bancario" },
+        { "4": "DGO GRATIS + Disney+ y Star+" },
+        { "5": "En todas tus pantallas DSports + DSports APP" },
+        { "6": "Contrata hasta 2 Premium" }
+      ],
+      "contacto": "56932283743"
     },
     {
       "title": "Plata HD Combo+",
@@ -201,14 +202,14 @@
       "include": "161 Canales: 96 SD, 65 HD",
       "channels": 161,
       "extra": "Acceso incluido a Disney+ y Star+",
-      "mas":{
-        "1": "1 deco HD incluido",
-        "2": "2do deco HD gratis",
-        "3": "Sin costo de instalación con Pago Automático bancario",
-        "4": "DGO GRATIS + Disney+ y Star+",
-        "5": "En todas tus pantallas DSports + DSports APP",
-        "6": "Contrata hasta 3 Premium"
-      },
+      "mas": [
+        { "1": "1 deco HD incluido" },
+        { "2": "2do deco HD gratis Sin costo de instalación" },
+        { "3": "Con Pago Automático bancario" },
+        { "4": "DGO GRATIS + Disney+ y Star+" },
+        { "5": "En todas tus pantallas DSports + DSports APP" },
+        { "6": "Contrata hasta 2 Premium" }
+      ],
       "contacto": "56932283743"
     },
     {
@@ -218,14 +219,14 @@
       "include": "203 CANALES: 116 SD, 87 HD",
       "channels": 203,
       "extra": "HBO incluido 3 meses y acceso incluido a Disney+ y Star+",
-      "mas": {
-        "1": "1 deco HD incluido",
-        "2": "2do deco HD gratis Sin costo de instalación",
-        "3": "Con Pago Automático bancario",
-        "4": "DGO GRATIS + Disney+ y Star+",
-        "5": "En todas tus pantallas DSports + DSports APP",
-        "6": "Contrata hasta 6 Premium"
-      },
+      "mas": [
+        { "1": "1 deco HD incluido" },
+        { "2": "2do deco HD gratis Sin costo de instalación" },
+        { "3": "Con Pago Automático bancario" },
+        { "4": "DGO GRATIS + Disney+ y Star+" },
+        { "5": "En todas tus pantallas DSports + DSports APP" },
+        { "6": "Contrata hasta 6 Premium" }
+      ],
       "contacto": "56932283743"
     }
   ]
