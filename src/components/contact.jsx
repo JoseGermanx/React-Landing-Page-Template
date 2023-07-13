@@ -1,6 +1,11 @@
+
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
+
+const CODE_1 = process.env.REACT_APP_NOT_SECRET_CODE1;
+const CODE_2 = process.env.REACT_APP_NOT_SECRET_CODE2;
+const CODE_3 = process.env.REACT_APP_NOT_SECRET_CODE3;
 
 const initialState = {
   name: "",
@@ -20,7 +25,7 @@ export const Contact = (props) => {
     // e.preventDefault();
     console.log(name, email, message);
     emailjs
-      .sendForm("service_0u2q6xn", "template_caj5g3a", e.target, "tpeSiOESNPaCeuHZS")
+      .sendForm(CODE_1, CODE_2, e.target, CODE_3)
       .then(
         (result) => {
           console.log(result.text);
