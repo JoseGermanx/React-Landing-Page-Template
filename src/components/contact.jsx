@@ -3,9 +3,7 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 
-const CODE_1 = process.env.REACT_APP_NOT_SECRET_CODE1;
-const CODE_2 = process.env.REACT_APP_NOT_SECRET_CODE2;
-const CODE_3 = process.env.REACT_APP_NOT_SECRET_CODE3;
+import { CODE_1, CODE_2, CODE_3 } from "../const/email";
 
 const initialState = {
   name: "",
