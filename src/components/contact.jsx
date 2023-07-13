@@ -35,8 +35,8 @@ export const Contact = (props) => {
     <div>
       <div id="contact">
         <div className="container">
-          <div className="col-md-8">
             <div className="row">
+            <div className="col-sm-12 col-md-8 col-lg-8">
               <div className="section-title">
                 <h2>Envia un mensaje a RSA</h2>
                 <p>
@@ -92,8 +92,7 @@ export const Contact = (props) => {
                 </button>
               </form>
             </div>
-          </div>
-          <div className="col-md-3 col-md-offset-1 contact-info">
+            <div className="col-sm-12 col-md-4 col-lg-4 text-align-rigth contact-info">
             <div className="contact-item">
               <h3>Información de contacto</h3>
               <p>
@@ -120,6 +119,9 @@ export const Contact = (props) => {
               </p>
             </div>
           </div>
+          
+          </div>
+          
           <div className="col-md-12">
             <div className="row">
               <div className="social">
