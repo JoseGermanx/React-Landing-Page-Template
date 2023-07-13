@@ -8,7 +8,7 @@ export const HeaderLanding = (props) => {
           <div className="container">
             <div className="row">
               <div className="col-sm-12 col-md-12 col-md-offset-2 intro-text">
-                <h1 className="title">
+                <h1 className="titulo">
                   {props.data ? props.data.title : "Loading"}
                   <span></span>
                 </h1>
