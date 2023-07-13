@@ -17,10 +17,10 @@ export const Contact = (props) => {
   const clearState = () => setState({ ...initialState });
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     console.log(name, email, message);
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
+      .sendForm("service_0u2q6xn", "template_caj5g3a", e.target, "tpeSiOESNPaCeuHZS")
       .then(
         (result) => {
           console.log(result.text);
@@ -35,12 +35,13 @@ export const Contact = (props) => {
     <div>
       <div id="contact">
         <div className="container">
-            <div className="row">
+          <div className="row">
             <div className="col-sm-12 col-md-8 col-lg-8">
               <div className="section-title">
                 <h2>Envia un mensaje a RSA</h2>
                 <p>
-                  Por favor llena el formulario y nos pondremos en contacto a la brevedad posible.
+                  Por favor llena el formulario y nos pondremos en contacto a la
+                  brevedad posible.
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
@@ -92,36 +93,35 @@ export const Contact = (props) => {
                 </button>
               </form>
             </div>
-            <div className="col-sm-12 col-md-4 col-lg-4 text-align-rigth contact-info">
-            <div className="contact-item">
-              <h3>Información de contacto</h3>
-              <p>
-                <span>
-                  <i className="fa fa-map-marker"></i> Dirección
-                </span>
-                {props.data ? props.data.address : "loading"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-phone"></i> Teléfono
-                </span>{" "}
-                {props.data ? props.data.phone : "loading"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-envelope-o"></i> Email
-                </span>{" "}
-                {props.data ? props.data.email : "loading"}
-              </p>
+            <div className="col-sm-12 col-md-4 col-lg-4t text-align-rigth contact-info">
+              <div className="contact-item">
+                <h3>Información de contacto</h3>
+                <p>
+                  <span>
+                    <i className="fa fa-map-marker"></i> Dirección
+                  </span>
+                  {props.data ? props.data.address : "loading"}
+                </p>
+              </div>
+              <div className="contact-item">
+                <p>
+                  <span>
+                    <i className="fa fa-phone"></i> Teléfono
+                  </span>{" "}
+                  {props.data ? props.data.phone : "loading"}
+                </p>
+              </div>
+              <div className="contact-item">
+                <p>
+                  <span>
+                    <i className="fa fa-envelope-o"></i> Email
+                  </span>{" "}
+                  {props.data ? props.data.email : "loading"}
+                </p>
+              </div>
             </div>
           </div>
-          
-          </div>
-          
+
           <div className="col-md-12">
             <div className="row">
               <div className="social">
@@ -130,7 +130,7 @@ export const Contact = (props) => {
                     <a href={props.data ? props.data.facebook : "/"}>
                       <i className="fa fa-facebook"></i>
                     </a>
-                  </li>                 
+                  </li>
                 </ul>
               </div>
             </div>

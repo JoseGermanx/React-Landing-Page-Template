@@ -612,9 +612,12 @@ div.carousel-caption h2 {
 }
 
 
-@media (max-width: 576px) { 
+@media (max-width: 575px) { 
   div.titulo h1 {
     font-size: 10px;
+  }
+  a.navbar-brand {
+    display: none;
   }
 }
 
