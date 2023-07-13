@@ -28,4 +28,5 @@ const App = () => {
   );
 };
 
+console.log(process.env.REACT_APP_NOT_SECRET_CODE1); 
 export default App;
