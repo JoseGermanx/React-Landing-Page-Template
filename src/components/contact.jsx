@@ -20,16 +20,24 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
+  
+  const clearInputs = () => { 
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+  }
 
   const handleSubmit = (e) => {
-    // e.preventDefault();
+    e.preventDefault();
     console.log(name, email, message);
     emailjs
       .sendForm(CODE_1, CODE_2, e.target, CODE_3)
       .then(
         (result) => {
           console.log(result.text);
+          clearInputs();
           clearState();
+          alert("Mensaje enviado correctamente")
         },
         (error) => {
           console.log(error.text);
