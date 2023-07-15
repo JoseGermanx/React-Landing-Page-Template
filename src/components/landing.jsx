@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import JsonData from '../data/data.json'
 import { Pricing } from './pricing'
 import { HeaderLanding } from './headerLanding'
+import { Footer } from './footer'
 
 export const Landing = () => {
     
@@ -16,6 +17,7 @@ export const Landing = () => {
     <div>
         <HeaderLanding data={landingPageData.Header} />
         <Pricing data={planes} />
+        <Footer />
     </div>
   )
 }

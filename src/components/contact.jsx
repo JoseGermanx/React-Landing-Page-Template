@@ -148,16 +148,6 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
-      <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2023 RSA Telecomunicaciones. Implement by{" "}
-            <a href="http://www.betacode.online" rel="nofollow">
-              Beta Code Software
-            </a>
-          </p>
-        </div>
-      </div>
     </div>
   );
 };
